@@ -116,10 +116,10 @@ public class StudentManagementSystem {
 
 class Student {
     
-    private int id;
-    private String name;
-    private String email;
-    private String phoneNumber;
+    public int id;
+    public String name;
+    public String email;
+    public String phoneNumber;
     
     public Student(int id, String name, String email, String phoneNumber) {
         this.id = id;
