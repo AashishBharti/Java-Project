@@ -1,5 +1,5 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.ArrayList;//header files
+import java.util.Scanner;//header files
 
 public class StudentManagementSystem {
     
@@ -7,7 +7,7 @@ public class StudentManagementSystem {
     
     public static void main(String[] args) {
         
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); //for input 
         boolean quit = false;
         
         do {
@@ -19,7 +19,7 @@ public class StudentManagementSystem {
             System.out.println("5. Quit");
             System.out.print("Enter your choice: ");
             
-            int choice = scanner.nextInt();
+            int choice = scanner.nextInt();//taking input from the user
             
             switch(choice) {
                 case 1:
